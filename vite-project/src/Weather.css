@@ -1,0 +1,55 @@
+/* Dark Background for the Body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background color */
+    color: #e0e0e0; /* Light text color for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns items at the start for scrolling */
+    min-height: 100vh; /* Ensures the body takes at least the viewport height */
+    overflow-y: auto; /* Allows vertical scrolling */
+  }
+  
+  /* Styling the Container */
+  .container {
+    background: #1e1e1e; /* Slightly lighter dark background for container */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    width: 90%; /* Responsive width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for better contrast */
+    margin-top: 20px; /* Space from the top for visual appeal */
+    overflow: hidden; /* Hides overflow within container */
+  }
+  
+  /* Styling the Article Items */
+  .weather-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333; /* Subtle border color */
+    padding-bottom: 20px;
+  }
+  
+  .weather-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #fff; /* White text for headings */
+  }
+  
+  .weather-item img {
+    width: 100%; /* Ensures image takes full width of container */
+    max-width: 400px; /* Sets a maximum width for medium-sized images */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px;
+    margin: 10px 0;
+    border: 2px solid #333; /* Adds a border around images for better visibility */
+    display: block; /* Ensures image is a block element */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+  }
+  
+  .weather-item p {
+    margin: 0;
+    color: #ccc; /* Light gray text for paragraphs */
+    line-height: 1.6; /* Adds spacing between lines of text */
+  }
+  
